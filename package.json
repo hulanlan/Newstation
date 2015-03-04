@@ -1,0 +1,16 @@
+{
+  "name": "fufudai",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "stop": "supervisor -e 'js|html|css' app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.6",
+    "supervisor": "^0.6.0"
+  }
+}

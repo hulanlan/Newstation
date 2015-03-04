@@ -1,0 +1,85 @@
+/* 头部 */
+.bs-hd,.bs-ft{position:relative;height:50px;line-height:50px;width:100%;background:#000;z-index:9;}
+.bs-hd h3{float:left;width:calc(100% - 100px);color:#fff;text-align:center;}
+.bs-hd a{width:50px;height:50px;}
+.bs-hd-l{float:left;}
+.bs-hd-r{float:right;}
+.bs-hd-search{float:left;position: relative;width:70%;margin:0 auto;}/*头部搜索样式样*/
+.bs-hd-search input{height:30px;line-height: 30px;width:100%;}
+.bs-hd-search i{position: absolute;right:10px;top:18px;}
+.bs-map{height:calc(100% - 177px);}
+.bs-line-map{position:relative;width:100%;overflow:hidden;}
+.bs-line-map li{height:40px;line-height: 40px;padding:0 10px;}
+.bs-map-cover{position:absolute;width:100%;height:100%;top:0;left:0;background: #000;opacity: .8;}
+.bs-map img,.bs-line-map img{width:100%;}
+.bs-search{width:100%;position:fixed; bottom:0;height:127px;background: #ffa912;padding:16px 5%;}
+.bs-nav{height:40px; line-height: 40px;}
+.bs-nav ul{float:left;width:100%;background:#e58700;}
+.bs-nav li{position:relative;}
+.bs-nav a{display:block;text-align: center;border-right:1px solid #ffa912;color:#fcd28b;}
+.bs-nav li.active a{background: #d15728;color:#fff;}
+.bs-nav li:last-child a{border:none;}
+.bs-sec-icon{display:none;position:absolute;bottom:-8px;left:50%;background: #ffa912;width:0;
+    height:0;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-top:8px solid #d15728;
+    margin-left:-4px;
+}
+.bs-icon-white{display:block;border-left:6px solid transparent;border-right:6px solid transparent;background: #e58700;border-top:6px solid #ffdda0;bottom:16px;margin-left:28px;}
+.bs-nav li.active .bs-sec-icon{display:block;}
+.bs-nav li.active .bs-icon-white{background: #d15728;border-top:6px solid #fff;}
+.bs-input{position:relative;margin-top:15px;}
+.bs-input input{width:100%;}
+.search-icon{display:inline-block;position:absolute;width:29px;height:23px;right:8px;top:8px;background: url("../img/search.png");z-index:999;}
+.bs-table li{text-align: center;}
+.bs-table-tit ul{background: #ffa912;height:42px; line-height:42px;color:#ffd68d;}
+.bs-table-cont ul{ line-height:50px;}
+.bs-table-tab{height:42px;line-height: 42px;background: #ffa912;color:#ffdda0;}
+.bs-table-tab li{position:relative;color:#ffdda0;}
+.bs-table-tab a{display:block;color:#ffdda0;}
+.bs-table-tab li.active a{background: #d15728;color:#fff;}
+.bs-table-tab li.active .bs-sec-icon{display:block;background: #fff;}
+/* 类别选择 */
+.bs-cate{float:left;width:100%;}
+.bs-cate li{position:relative;float:left;width:100%;height:50px;line-height:50px;border-bottom:1px solid #d5d5d5;text-align:left;padding:0 10px;}
+.bs-cate .f-fl{width:90%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.bs-sc-plf0 .bs-cate li{padding:0 10px;}
+/*右边为按钮*/
+.bs-cate-btn .f-fl{width:60%;}
+.bs-cate-btn .f-fr{width:40%;text-align: right;}
+.bs-cate-btn .bs-btn{margin:5px 0;float:right;width:70%;}
+/*一行二列、一行三列,一行四列,一行五列*/
+.bs-li-wp50 li{float:left;width:50%;}
+.bs-li-wp33 li{float:left;width:33%;}
+.bs-li-wp25 li{float:left;width:25%;}
+.bs-li-wp20 li{float:left;width:20%;}
+.line1,.line2,.line3,.line4,.line5{display:inline-block;width:15px;height :15px;text-align:center;line-height:15px;border-radius:50%;margin:18px 3px 0;color:#fff;}
+.line1{background: #ff00b4;}
+.line2{background: #83f651;}
+.back-icon{width:14px;height:27px;background: url("../img/left_arrow.png") 15px 10px no-repeat;}
+ul.station-cate{border:none;}
+.station-cate li{float:none;width:auto;margin-left:30px;padding-left:20px;border:none;border-left: 1px solid #eaeaea;}
+.car-icon{display:block;position:absolute;left:-23px;top:16px;width:37px;height:21px;background: url("../img/metro.png");background-size: 37px 21px;}
+.f-fcr{color:#f00;font-weight: 700;}
+.bs-line-map{background: #ffa912;color:#fff;}
+.bs-line-map li{position: relative;}
+.name{float:left;width:100px;text-align: right;margin-right:10px;}
+.more-train{
+    position:absolute;
+    right:10px;
+    top:10px;border-left:2px solid #fff;
+    border-bottom:2px solid #fff;
+    width:12px;
+    height:12px;
+    -webkit-transform:rotate(-45deg);
+}
+.more-train-hide{
+    position:absolute;
+    right:10px;
+    top:16px;border-right:2px solid #fff;
+    border-top:2px solid #fff;
+    width:12px;
+    height:12px;
+    -webkit-transform:rotate(-45deg);
+}

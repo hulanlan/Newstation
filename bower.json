@@ -1,0 +1,21 @@
+{
+  "name": "fufudai",
+  "version": "0.0.0",
+  "authors": [
+    "hujin <bugushi@qq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0",
+    "requirejs": "~2.1.15",
+    "underscore": "~1.7.0",
+    "zepto": "~1.1.6"
+  }
+}
